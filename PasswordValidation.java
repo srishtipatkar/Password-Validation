@@ -13,7 +13,7 @@ public class PasswordValidation {
         int specialCharactersLength = 0;
         int totalPasswordLength = input_password.length();
 
-        if (totalPasswordLength < 6) {
+        if (totalPasswordLength < 7) {
             System.out.println("Weak");
         } else {
             for (char ch : input_password.toCharArray()) {
