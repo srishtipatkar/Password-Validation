@@ -21,7 +21,7 @@ void val::valid (char p[],int n)
         }
         for (int j=0;j<7;j++)
         {
-        ;
+        
             if(p[i]==x[j])
             {
                 b+=1;
